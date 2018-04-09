@@ -1,7 +1,7 @@
 /*
 	ISYS 320
-	Name(s):
-	Date: 
+	Name(s):AlfurhudSolomon
+	Date: Apr8, 2018
 */
 
 import java.util.Scanner;
@@ -24,7 +24,7 @@ public class P5_AvgToTwoPlaces {
 			sum += nextInputValue;
 		}
 		
-		System.out.println("The average value is: " + sum / numbers);
+		System.out.println("The average value is: " + Math.round((sum / numbers) * 100.0) / 100.0);
 	}
 
 }
